@@ -17,7 +17,8 @@ Do the following:
 
    HINT: no function required
 */
-
+/*const votingAge = 18;
+if (votingAge===18){return }*/
 
 
 /*
@@ -70,16 +71,19 @@ console.log(multiply(5, 4));
 /*
 Do the following:
    1. Invoke the dogYears function below and pass an age value to it
-   2. Use the received value to calculate the age in dog years (1 human year is equal to 7 dog years)
+   2. Use the received value to calculate the age in dog years (1 human 
+      year is equal to 7 dog years)
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+
+function dogYears(num1, num2){
+  return num1 * num2;
 }
 
+console.log(dogYears(1, 7));
 
-
+webkitCancelAnimationFrame
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
 //Dog feeder - Depending on their weight and age, we need to know how many pounds of food to feed our dog each day!
