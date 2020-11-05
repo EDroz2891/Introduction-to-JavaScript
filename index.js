@@ -77,13 +77,13 @@ Do the following:
 */
 
 
-function dogYears(num1, num2){
-  return num1 * num2;
+function dogYears(dogage){
+  return dogage * 7;
 }
 
-console.log(dogYears(1, 7));
+console.log(dogYears(7));
 
-webkitCancelAnimationFrame
+
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
 //Dog feeder - Depending on their weight and age, we need to know how many pounds of food to feed our dog each day!
